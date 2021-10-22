@@ -60,8 +60,9 @@ flush();
 $commands = array(
     'echo $PWD',
     'whoami',
-    'cd /var/www/ecom',
-    'git pull',
+    'bash /home/eliasteeny/deploy.sh'
+    //'cd /var/www/ecom',
+    //'git pull',
     // 'git status',
     // 'git submodule sync',
     // 'git submodule update',
